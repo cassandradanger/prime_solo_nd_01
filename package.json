@@ -1,0 +1,16 @@
+{
+  "name": "prime_solo_nd_01",
+  "version": "1.0.0",
+  "description": "Prime Solo ND 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Casie",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "path": "^0.11.14"
+  }
+}
