@@ -1,6 +1,6 @@
 body{
     color: #1d3c4f;
-    margin: 20px;
+    margin: 20px 0px 0px 0px;
     font-family: Helvetica, san-serif;
 }
 
@@ -36,4 +36,19 @@ img{
 .row{
     margin-left: auto;
     margin-right: auto;
+}
+
+#footer{
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    line-height: 3em;
+    height: 310px;
+}
+
+a{
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
 }
