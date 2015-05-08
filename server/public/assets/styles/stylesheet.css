@@ -1,6 +1,7 @@
 body{
     color: #1d3c4f;
     margin: 20px;
+    font-family: Helvetica, san-serif;
 }
 
 .carousel-inner > .item > img,
@@ -16,10 +17,23 @@ h1{
     padding-top: 0px;
 }
 
-a img{
+img{
     display: inline;
+    padding: 7px;
+    margin: 7px;
 }
 
 .container{
     width: 700px;
+}
+
+.container-fluid{
+    background-color: #1d3c4f;
+    color: #c0b50f;
+    padding: 20px 20px 100px 20px;
+}
+
+.row{
+    margin-left: auto;
+    margin-right: auto;
 }
