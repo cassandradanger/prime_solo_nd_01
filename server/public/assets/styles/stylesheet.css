@@ -2,3 +2,9 @@ body{
     background-color: #1d3c4f;
     color: #c0b50f;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
