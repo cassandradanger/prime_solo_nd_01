@@ -1,0 +1,10 @@
+{
+  "locations" : [
+    {"location": "Tokyo", "population": 13350000, "area": "842mi^2"},
+    {"location": "New York", "population": 8400000, "area": "469mi^2"},
+    {"location": "Minneapolis", "population": 400070, "area": "58.4mi^2"},
+    {"location": "Paris", "population": 2200000, "area": "40.7mi^2"},
+    {"location": "Atlanta", "population": 447841, "area": "132.4mi^2"}
+
+  ]
+}
