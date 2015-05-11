@@ -7,7 +7,7 @@ var Markit = {};
 Markit.QuoteService = function(stockSearch, results) {
     this.symbol = stockSearch;
     this.results = results;
-    this.DATA_SRC = "https://dev.markitondemand.com/Api/v2/Quote/json";
+    this.DATA_SRC = "https://dev.markitondemand.com/Api/v2/Quote/jsonp";
     this.makeRequest();
 };
 /**
@@ -30,7 +30,7 @@ Markit.QuoteService.prototype.makeRequest = function() {
     this.xhr = $.ajax({
         data: { symbol: this.symbol },
         url: this.DATA_SRC,
-        dataType: "json",
+        dataType: "jsonp",
         success: this.handleSuccess,
         error: this.handleError,
         context: this
