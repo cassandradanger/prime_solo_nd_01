@@ -25,12 +25,13 @@ img{
 
 .container{
     width: 700px;
+    height: 550px;
 }
 
 .container-fluid{
     background-color: #1d3c4f;
     color: #c0b50f;
-    padding: 20px 20px 100px 20px;
+    padding: 20px 20px 80px 20px;
 }
 
 .row{
@@ -47,7 +48,7 @@ img{
     height: 310px;
 }
 
-a{
+.new{
     font-size: 20px;
     color: white;
     margin-left: 5px;

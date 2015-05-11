@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href= "/vendor/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/assets/styles/stylesheet.css">
         <script type = "text/javascript" src = "/assets/scripts/jquery.min.js"></script>
         <script type = "text/javascript" src = "/assets/scripts/app.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href= "/vendor/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/styles/stylesheet.css">
 
     </head>
     <body>
         <div class = "container-fluid">
-            <a href = "http://www.casiesiekman.com"><img src = "/assets/styles/images/owl.png " style="display: inline"></a><br/>
+            <a href = "http://www.casiesiekman.com" target = "_blank"><img src = "/assets/styles/images/owl.png " style="display: inline"></a><br/>
             <h1><strong>Hi! I'm Casie!!</strong></h1>
         </div>
+        <!-----------------------------tabs------------------------------------------------->
         <div class="bs-example">
             <ul class="nav nav-tabs">
                 <li class="active"><a data-toggle="tab" href="#sectionA">Pictures</a></li>
-                <li><a data-toggle="tab" href="#sectionB">JSON</a></li>
+                <li><a data-toggle="tab" href="#sectionB">Stocks</a></li>
                 <li><a data-toggle="tab" href="#sectionC">Module</a></li>
                 <!--<li class="dropdown">-->
                     <!--<a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>-->
@@ -25,9 +28,9 @@
                     <!--</ul>-->
                 <!--</li>-->
             </ul>
+            <!-----------------------------first tab content------------------------------------------------>
             <div class="tab-content">
                 <div id="sectionA" class="tab-pane fade in active">
-                    <h3>Section A</h3>
                     <div class="container">
                         <br>
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -126,14 +129,30 @@
                     </div>
                     <br/>
                     </div>
+               <!-----------------------------------second tab content------------------------------------------->
                 <div id="sectionB" class="tab-pane fade">
-                    <h3>JSON</h3>
-                    <p>testing testing
+                    <br/>
+                    <div class = "container">
+                        <div class="row">
+                            <div class = "col-md-4 well col-md-offset-4">
+                                <form id = "textBox">
+                                    Search Stocks
+                                    <input type = "text" id = "stock_search">
+                                </form>
+                                <button class="submit">submit</button>
+                                <br/>
+                                <div class="results"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!------------------------------------third tab content------------------------------------------>
                 <div id="sectionC" class="tab-pane fade">
-                    <h3>Module</h3>
-                    <p>testing testing
+                    <div class = 'container'>
+                        <br/>
+                    </div>
                 </div>
+                <!------------------------------------end of third tab content------------------------------------------>
             </div>
         </div>
 
@@ -144,7 +163,7 @@
             <a href = "https://twitter.com/cassandradanger"><img src = "/assets/styles/images/twitter.jpg"></a>
             <a href = "https://linkedin.com/in/casielynch"><img src = "/assets/styles/images/linkedin.jpg"></a>
             </div>
-            <a href ="mailto: cds.lynch@gmail.com?Subject=You are awesome!!" target="_top">I'm bored! Send me an email!</a>
+            <a href ="mailto: cds.lynch@gmail.com?Subject=You are awesome!!" target="_top" class = "new">I'm bored! Send me an email!</a>
         </div>
         <script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="/vendor/jquery/dist/jquery.min.js"></script>
